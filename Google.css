@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    background-color: rgb(243, 202, 202);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.header a{
+    margin-right: 2rem;
+    color: black;
+    font-size: 1rem;
+    text-decoration: inherit;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.header_right{
+    display: flex;
+    align-items: center;
+    min-width: 3rem;
+}
+
+.header_right .header_app{
+    margin-right: 1rem;
+}
+
+.mainBody{
+    flex: 1;
+    display: flex;
+    margin: 3rem;
+    flex-direction: column;
+}
+
+/* .mainBody img{
+    object-fit: contain;
+    height: 10rem;
+} */
+
+.search_input{
+    display: flex;
+    align-items: center;
+    border: 0.2rem solid rgb(10, 8, 9);
+    height: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+    width: 35rem;
+}
+
+.search_input input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+
+.search_input .icon{
+    color: rgb(20, 8, 8);
+    justify-content: center;
+}
+
+.search_buttons{
+    margin: 5px;
+    padding: 2rem 32.2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Google{
+    padding-top: -10rem;
+    margin-top: 7rem;
+    text-align: center;
+    font-size:5rem;
+    font-style:italic;
+    font-weight: 900;
+    color: red;
+}
+ button:hover{
+    color: red;
+}
+
